@@ -4,7 +4,7 @@
 *{
     margin: 0;
     font-family: Helvetica, "sans serif";
-  }
+}
   
 /******* BAKGRUNDSBILD ******/ 
 .hero-content {
@@ -12,28 +12,27 @@
   /* Du kan byt bakgrundsbilden genom att ändra url. Kom ihåg att lägga bilden i rätt mapp! */
   background-image: url("./images/konfetti.jpg");
 
-  /* Här ändrar du höjden på bilden*/
+  /* Här ändrar du egenskapen på bilden*/
   height: 400px;
-
-    /* Positionen av bilden */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
   
-  /****** INFORMATIONEN OVANPÅ BILDEN*****/
-  /* Här stylar du informationen (texten och knappens position) ovanpå bilden */
+/****** INFORMATIONEN OVANPÅ BILDEN*****/
+/* Här stylar du informationen (texten och knappens position) ovanpå bilden */
 .hero-text-and-button{
-    color:white;
-      /* positionera allt i center med antingen text-align: center eller hjälp av exempelvis flexbox. 
-      Du kan såklart ändra position till left eller right. Få mer hjälp här: https://www.w3schools.com/css/css_text_align.asp*/
-    text-align: center;
+  color:white;
+    /* positionera allt i center med antingen text-align: center eller hjälp av exempelvis flexbox. 
+    Du kan såklart ändra position till left eller right. Få mer hjälp här: https://www.w3schools.com/css/css_text_align.asp*/
+  text-align: center;
 }
 
-    /****** STYLA DIN KNAPP HÄR NEDAN****/
+/****** STYLA DIN KNAPP HÄR NEDAN****/
 .button{
-  /*Få hjälp här: https://www.w3schools.com/css/css3_buttons.asp */
+  /*Få hjälp här med stylingen: https://www.w3schools.com/css/css3_buttons.asp */
   color: white;
 }
 
