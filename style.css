@@ -9,7 +9,7 @@
 /******* BAKGRUNDSBILD ******/ 
 .hero-content {
 
-  /* Du kan byt bakgrundsbilden genom att ändra url. Kom ihåg att lägga bilden i rätt mapp! */
+  /* Du kan byta bakgrundsbilden genom att ändra url. Kom ihåg att lägga bilden i rätt mapp! */
   background-image: url("./images/konfetti.jpg");
 
   /* Här ändrar du egenskapen på bilden*/
